@@ -31,6 +31,10 @@ a{
     font-size: 120%;
 }
 
+div {
+    display: flexbox;
+}
+
 /* .imagem1{
     width: 10px;
     height: 10px;
@@ -74,4 +78,32 @@ h2{
 
 .grifo-logo {
     margin-left: 40px;
+}
+
+.parceria {
+    display: flex;
+}
+
+.parceria[name="subway"] {
+    margin-top: 172px;
+    background-color: rgb(172, 16, 16);
+}
+
+.parceria[name="vikings"] {
+    background-color: #ffffff;
+}
+
+.parceria[name="tialilica"] {
+    background-color: #8f0b0b;
+}
+
+.parceria h1 {
+    font-family: Graduate;
+    font-size: 100px;
+}
+
+.parceria p {
+    font-family: Inter;
+    font-size: 30px;
+    text-align: center;
 }
