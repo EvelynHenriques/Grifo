@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+body{
+    color: black;
+    background-color: rgb(172, 16, 16);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    position:fixed;
+    background-color: black;
+    padding-bottom: 0px;
+}
+
+ul {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+/* .imagem1{
+    width: 10px;
+    height: 10px;
+}  */
+/* .fundo {
+    
+ } */
+/* header{
+    
+} */
+.center{
+    text-align: center;
+    font-size: 200%;
+    position: relative;
+    padding-top:550px;
+    background-image: url("./img/imet.jpg");
+    top:0px; 
+    left:0px;
+}
+h1{
+    font-size: 80%;
+    color:black;
+}
+h2{
+    font-size: 150%;
+    color: black;
+}
+.linha{
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding:10px; 
+  }
+.coluna-33 {
+    width: 33%;
+ }
