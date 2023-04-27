@@ -86,12 +86,87 @@ h2{
     text-align: center;
     display: flex;
     flex-flow: row wrap;
-    padding-top:990px; 
+    padding-top:990px;
+    gap:15px 0px;
 }
 .coluna-33 {
     width: 33%;
 }
+h3{
+    overflow-wrap: break-word;
+    max-width: 80%;
+    padding-left: 50px;
 
+}
+
+.square{
+    margin-left: 50px;
+    width: 350px;
+    height:200px;
+    border: 3px solid black;
+}
+.linha-eventos{
+    display:flex;
+    padding-left: 20px;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+.coluna-50{
+    flex:50%;
+    padding:10px;
+    height:300px;
+}
+.coluna-40{
+    flex:50%;
+    padding-top:30px;
+    height:300px;
+}
+h4{
+    font-size: 500%;
+    font-family: 'Graduate', Courier;
+    font-weight: 400;
+    color:white;
+}
+h5{
+    padding-top: 20px;
+    font-size: 150%;
+    overflow-wrap: break-word;
+    color:white;
+    font-weight: 200;
+    max-width: 550px;
+
+    
+}
+.branco{
+    background-color: white;
+    padding-top: 0px;
+    height: 480px;
+}
+h6{
+    color: black;
+    padding-top: 20px;
+    font-size: 150%;
+    overflow-wrap: break-word;
+    font-weight: 200;
+    max-width: 550px;
+}
+h7{
+    font-size: 500%;
+    font-family: 'Graduate', Courier;
+    font-weight: 400;
+    color:black;
+}
+.linha-eventos2{
+    display:flex;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.linha-eventos3{
+    display:flex;
+    padding-left: 20px;
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
 .ig-logo {
     margin-right: 80px;
 }
