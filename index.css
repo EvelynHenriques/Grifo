@@ -81,29 +81,83 @@ h2{
 }
 
 .parceria {
-    display: flex;
+    display: inline-flex;
+    padding: 35px 60px;
 }
 
 .parceria[name="subway"] {
-    margin-top: 172px;
+    margin-top: 152px;
     background-color: rgb(172, 16, 16);
+    color: #ffffff;
+}
+
+.parceria[name="subway"] h1 {
+    color: #ffffff;
+}
+
+.parceria[name="subway"] div {
+    display: flex grid;
+    justify-content: center;
+    margin: 40px;
+}
+
+.parceria[name="subway"] div:first-child {
+    margin-left: 0px;
+}
+
+.parceria[name="subway"] div:last-child {
+    margin-right: 0px;
 }
 
 .parceria[name="vikings"] {
     background-color: #ffffff;
 }
 
+.parceria[name="vikings"] div {
+    display: flex grid;
+    justify-content: center;
+    margin: 40px;
+}
+
+.parceria[name="vikings"] div:first-child {
+    margin-left: 0px;
+}
+
+.parceria[name="vikings"] div:last-child {
+    margin-right: 0px;
+}
+
 .parceria[name="tialilica"] {
     background-color: #8f0b0b;
+    color: #ffffff;
+}
+
+.parceria[name="tialilica"] h1 {
+    color: #ffffff;
+}
+
+.parceria[name="tialilica"] div {
+    display: flex grid;
+    justify-content: center;
+    margin: 40px;
+}
+
+.parceria[name="tialilica"] div:first-child {
+    margin-left: 0px;
+}
+
+.parceria[name="tialilica"] div:last-child {
+    margin-right: 0px;
 }
 
 .parceria h1 {
     font-family: Graduate;
     font-size: 100px;
+    text-align: left;
 }
 
 .parceria p {
     font-family: Inter;
     font-size: 30px;
-    text-align: center;
+    text-align: justify;
 }
