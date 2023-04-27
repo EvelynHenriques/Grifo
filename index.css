@@ -11,12 +11,17 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    height: 15%;
+    z-index: 100;
     position:fixed;
+    align-items: center;
     background-color: black;
     padding-bottom: 0px;
 }
-
+li {
+    margin-bottom: 10px; /* reduz a margem inferior entre os itens da lista */
+    margin-top: 10px;
+}
 ul {
     background-color: black;
     display: flex;
@@ -28,7 +33,7 @@ ul {
 a{
     color: white;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 170%;
 }
 
 /* .imagem1{
@@ -43,35 +48,52 @@ a{
 } */
 .center{
     text-align: center;
+    justify-content: center;
     font-size: 200%;
     position: relative;
-    padding-top:550px;
-    background-image: url("./img/imet.jpg");
-    top:0px; 
-    left:0px;
+    /* padding-top:0px;
+    padding-bottom: 180px; */
+    /* top:0px; 
+    left:0px; */
+}
+.img1{
+    top:120px;
+    left: 0px;
+    max-width:100%;
+    height:auto;
+    position:absolute;
+}
+.img2{
+    top:250px;
+    left: 448px;
+    position: absolute;
 }
 h1{
-    font-size: 80%;
+    font-size: 90%;
+    font-family: 'Inter';
+    font-style: normal;
     color:black;
+    font-variation-settings: 'slnt' 0;
 }
 h2{
     font-size: 150%;
+    font-family: 'Inter';
+    font-style: normal;
     color: black;
+    font-variation-settings: 'slnt' 0;
 }
 .linha{
     text-align: center;
     display: flex;
     flex-flow: row wrap;
-    padding:10px; 
-  }
+    padding-top:990px; 
+}
 .coluna-33 {
     width: 33%;
 }
-
-.ig-logo {
-    margin-right: 80px;
-}
-
-.grifo-logo {
-    margin-left: 40px;
+.square{
+    margin-left: 50px;
+    width: 350px;
+    height:200px;
+    border: 3px solid black;
 }
