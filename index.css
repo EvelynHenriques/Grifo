@@ -92,6 +92,12 @@ h2{
 .coluna-33 {
     width: 33%;
 }
+h3{
+    overflow-wrap: break-word;
+    max-width: 80%;
+    padding-left: 50px;
+
+}
 
 .square{
     margin-left: 50px;
@@ -99,33 +105,154 @@ h2{
     height:200px;
     border: 3px solid black;
 }
-h3{
-    font-size: 130%;
-    padding-left: 50px;
-    overflow-wrap: break-word;
-    max-width: 80%;
-    padding-bottom: 60px;
-}
 .linha-eventos{
-    display: flex;
-    
+    display:flex;
+    padding-left: 20px;
     padding-top: 200px;
-    padding-left: 30px;
+    padding-bottom: 80px;
 }
-/* .coluna-eventos{
-    text-align: center;
-    display: flex;
-    padding-top:200px;
-    gap:100px 0px;
-    padding-left: 30px;
-} */
-.coluna-50 {
+.coluna-50{
     flex:50%;
-    height:100px;
-    gap:1000px;
+    padding:10px;
+    height:300px;
+}
+.coluna-40{
+    flex:50%;
+    padding-top:30px;
+    height:300px;
+}
+h4{
+    font-size: 500%;
+    font-family: 'Graduate', Courier;
+    font-weight: 400;
+    color:white;
+}
+h5{
+    padding-top: 20px;
+    font-size: 150%;
+    overflow-wrap: break-word;
+    color:white;
+    font-weight: 200;
+    max-width: 550px;
+
+    
+}
+.branco{
+    background-color: white;
+    padding-top: 0px;
+    height: 480px;
+}
+h6{
+    color: black;
+    padding-top: 20px;
+    font-size: 150%;
+    overflow-wrap: break-word;
+    font-weight: 200;
+    max-width: 550px;
+}
+h7{
+    font-size: 500%;
+    font-family: 'Graduate', Courier;
+    font-weight: 400;
+    color:black;
+}
+.linha-eventos2{
+    display:flex;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.linha-eventos3{
+    display:flex;
+    padding-left: 20px;
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+.ig-logo {
+    margin-right: 80px;
 }
 
-h4{
-    font-size: 300%;
-    padding-left: 800px;
+.grifo-logo {
+    margin-left: 40px;
+}
+
+.parceria {
+    display: inline-flex;
+    padding: 35px 60px;
+}
+
+.parceria[name="subway"] {
+    margin-top: 152px;
+    background-color: rgb(172, 16, 16);
+    color: #ffffff;
+}
+
+.parceria[name="subway"] h1 {
+    color: #ffffff;
+}
+
+.parceria[name="subway"] div {
+    display: flex grid;
+    justify-content: center;
+    margin: 40px;
+}
+
+.parceria[name="subway"] div:first-child {
+    margin-left: 0px;
+}
+
+.parceria[name="subway"] div:last-child {
+    margin-right: 0px;
+}
+
+.parceria[name="vikings"] {
+    background-color: #ffffff;
+}
+
+.parceria[name="vikings"] div {
+    display: flex grid;
+    justify-content: center;
+    margin: 40px;
+}
+
+.parceria[name="vikings"] div:first-child {
+    margin-left: 0px;
+}
+
+.parceria[name="vikings"] div:last-child {
+    margin-right: 0px;
+}
+
+.parceria[name="tialilica"] {
+    background-color: #8f0b0b;
+    color: #ffffff;
+}
+
+.parceria[name="tialilica"] h1 {
+    color: #ffffff;
+}
+
+.parceria[name="tialilica"] div {
+    display: flex grid;
+    justify-content: center;
+    margin: 40px;
+}
+
+.parceria[name="tialilica"] div:first-child {
+    margin-left: 0px;
+}
+
+.parceria[name="tialilica"] div:last-child {
+    margin-right: 0px;
+}
+
+.parceria h1 {
+    font-family: Graduate;
+    font-size: 100px;
+    text-align: left;
+}
+
+.parceria p {
+    font-family: Inter;
+    font-size: 30px;
+    text-align: justify;
 }
