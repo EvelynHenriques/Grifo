@@ -33,18 +33,11 @@ a{
     color: white;
     text-decoration: none;
     font-size: 170%;
+    font-family: "Graduate";
 }
-
-/* .imagem1{
-    width: 10px;
-    height: 10px;
-}  */
-/* .fundo {
-    
- } */
-/* header{
-    
-} */
+a:hover {
+    color: #8f0b0b;
+}
 .center{
     text-align: center;
     font-size: 200%;
