@@ -176,9 +176,10 @@ h5[id="LUAU"]{
     background-image: url('img/grifo2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 650px 650px;
-    background-position: center;
+    background-size: 540px 540px;
+    background-position-x: center;
     display: grid;
+    background-position-y: 110%;
 }
 
 .quadrado{
@@ -190,8 +191,8 @@ h5[id="LUAU"]{
     margin-top: 10px;
 }
 .frase-lojinha{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     color: wheat;
     font-size: 300%;
     font-family: 'Graduate', Courier;
