@@ -87,7 +87,7 @@ h2{
     text-align: center;
     display: flex;
     flex-flow: row wrap;
-    padding-top:990px;
+    padding-top:20vh;
     gap:15px 0px;
 }
 .coluna-33 {
@@ -101,7 +101,6 @@ h3{
 }
 
 .square{
-    margin-left: 50px;
     width: 350px;
     height:200px;
     border: 3px solid black;
@@ -135,8 +134,14 @@ h5{
     color:white;
     font-weight: 200;
     max-width: 550px;
+}
+.retangulo-solido {
+    padding: 8vh 0;
 
-    
+}
+.retangulo-solido img{
+    padding: 1.5vh 0;
+    width: 350px;
 }
 .branco{
     background-color: white;
@@ -168,97 +173,5 @@ h5[id="LUAU"]{
     padding-top: 65px;
     padding-bottom: 80px;
 }
-.ig-logo {
-    margin-right: 80px;
-}
-
-.grifo-logo {
-    margin-left: 40px;
-}
-
-.parceria {
-    display: inline-flex;
-    padding: 35px 60px;
-}
-
-.parceria[name="subway"] {
-    background-color: rgb(172, 16, 16);
-    color: #ffffff;
-}
-
-.parceria[name="subway"] h1 {
-    color: #ffffff;
-}
-
-.parceria[name="subway"] div {
-    display: flex grid;
-    justify-content: center;
-    margin: 80px 100px;
-}
-
-.parceria[name="subway"] div:first-child {
-    margin-left: 0px;
-}
-
-.parceria[name="subway"] div:last-child {
-    margin-right: 0px;
-}
-
-.parceria[name="vikings"] {
-    background-color: #ffffff;
-}
-
-.parceria[name="vikings"] div {
-    display: flex grid;
-    justify-content: center;
-    margin: 80px 100px;
-}
-
-.parceria[name="vikings"] div:first-child {
-    margin-left: 0px;
-}
-
-.parceria[name="vikings"] div:last-child {
-    margin-right: 0px;
-}
-
-.parceria[name="tialilica"] {
-    background-color: #8f0b0b;
-    color: #ffffff;
-}
-
-.parceria[name="tialilica"] h1 {
-    color: #ffffff;
-}
-
-.parceria[name="tialilica"] div {
-    display: flex grid;
-    justify-content: center;
-    margin: 60px 100px;
-    padding-top: 60px;
 
 
-}
-
-.parceria[name="tialilica"] div:first-child {
-    margin-left: 0px;
-}
-
-.parceria[name="tialilica"] div:last-child {
-    margin-right: 0px;
-}
-
-.parceria h1 {
-    font-family: Graduate;
-    font-size: 100px;
-    text-align: left;
-    font-weight: 400;
-
-}
-
-.parceria p {
-
-    font-size: 150%;
-    text-align: justify;
-    font-weight: 200;
-}
