@@ -4,67 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lojinha</title>
-    <link rel="stylesheet" href="index.css">
+    <title>GRIFO</title>
+    <link rel = "stylesheet" href="index.css">
     <style>   
-    body{
-            background-image: url('img/grifo2.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 650px 650px;
-            margin-left: 5px;
-            margin-right: 39px;
-        }
-
-        .quadrado{
-        border: 2px solid black;
-        width: 300px;
-        height: 300px;
-        background-color: lightgrey;
-        border-radius: 10px;
-        margin-top: 10px;
-        }
-    </style>
-</head>
+        .corpo-lojinha{
+                background-image: url('img/grifo2.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 650px 650px;
+                background-position: center;
+            }
     
-    <body>
-        <center>
-            
-            <h1>DESCUBRA NOSSA SELEÇÃO DE PRODUTOS</h1>
-        
-        <div class = "quadrado">
-            <div id = 'img'>
-                <img src='img/bone.png'
-                     width="200px" height = "200px">
-            </div>
-            <div id = 'txt'>
-                <h2>Boné</h2>
-                <p>R$ 20,00</p>
-            </div>
-        </div>
-        
-        <div class = "quadrado">
-            <div id = 'img'>
-                <img src='img/camisa.png'
-                     width="200px" height="200px">
-            </div>
-            <div id = 'txt'>
-                <h2>Camisa</h2>
-                <p>R$ 40,00</p>
-            </div>
-        </div>
-        
-        <div class = "quadrado">
-            <div id = 'img'>
-                <img src='img/caneca.png'
-                     width="200px" height="200px">
-            </div>
-            <div id = 'txt'>
-                <h2>Caneca</h2>
-                <p>R$ 30,00</p>
-            </div>
-        </div>
-        
-        </center>>
-    </body>
+            .quadrado{
+            border: 2px solid black;
+            width: 260px;
+            height: 250px;
+            background-color: lightgrey;
+            border-radius: 10px;
+            margin-top: 10px;
+            }
+            .frase-lojinha{
+                margin-top: 40px;
+                margin-bottom: 40px;
+                color: wheat;
+                font-size: 300%;
+                font-family: 'Graduate', Courier;
+                font-weight: 800;
+            }
+        </style>
+</head>
+
+<body>
+    <div class = "corpo-lojinha">
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a>
+                        <img src="./img/mascote.png" width="178px" height="109px" ></img>
+                    </a>
+                </li>
+                <li>
+                    <a></a>
+                </li>
+                <li>
+                    <a></a>
+                </li>
+                <li>
+                    <a></a>
+                </li>                
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="events.html">Eventos</a>
+                </li>
+                <li>
+                    <a href="lojinha.html" >Lojinha</a>
+                </li>
+                <li>
+                    <a href="parcerias.html" >Parcerias</a>
+                </li>
+                <li>
+                    <a>
+                        <img src="./img/insta.png" width="40px" height="40px"></img>
+                    </a>
+                </li>
+                <li>
+                    <a></a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <!--lojinha-->
+
+<center>
+     
+    <div class = "frase-lojinha">DESCUBRA NOSSA SELEÇÃO DE PRODUTOS</div>
+
+<div class = "quadrado">
+    <div id = 'img'>
+        <img src='img/bone.png'
+        width="200px" height = "200px">
+    </div>
+    
+    <div id = 'txt'>
+        <h2>Boné</h2>
+        <p>R$ 20,00</p>
+    </div>
+</div>
+
+<div class = "quadrado">
+    <div id = 'img'>
+        <img src='img/camisa.png'
+        width="200px" height="200px">
+    </div>
+    
+    
+    <div id = 'txt'>
+        <h2>Camisa</h2>
+        <p>R$ 40,00</p>
+    </div>
+
+</div>
+
+<div class = "quadrado">
+    <div id = 'img'>
+        <img src='img/caneca.png'
+        width="200px" height="200px">
+    </div>
+    
+    <div id = 'txt'>
+        <h2>Caneca</h2>
+        <p>R$ 30,00</p>
+    </div>
+
+</div>
+    
+</center>>
+</div>
+</body>
 </html>
+
