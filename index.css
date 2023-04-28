@@ -167,4 +167,27 @@ h5[id="LUAU"]{
     padding-bottom: 80px;
 }
 
+.corpo-lojinha{
+    background-image: url('img/grifo2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 650px 650px;
+    background-position: center;
+}
 
+.quadrado{
+    border: 2px solid black;
+    width: 260px;
+    height: 250px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.frase-lojinha{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: wheat;
+    font-size: 300%;
+    font-family: 'Graduate', Courier;
+    font-weight: 800;
+}
