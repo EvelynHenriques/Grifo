@@ -8,20 +8,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
+    height: 15%;
     z-index: 100;
     align-items: center;
     background-color: black;
     padding-bottom: 0px;
 }
-
-.header-div {
-    font-size: large;
-    font-family: 'Inter';
-}
-
 li {
     margin-bottom: 10px; /* reduz a margem inferior entre os itens da lista */
     margin-top: 10px;
@@ -40,10 +35,24 @@ a{
     font-size: 170%;
 }
 
+/* .imagem1{
+    width: 10px;
+    height: 10px;
+}  */
+/* .fundo {
+    
+ } */
+/* header{
+    
+} */
 .center{
     text-align: center;
     font-size: 200%;
     position: relative;
+    /* padding-top:0px;
+    padding-bottom: 180px; */
+    /* top:0px; 
+    left:0px; */
     display: flex;
     justify-content: center;
 }
@@ -78,51 +87,29 @@ h2{
     text-align: center;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 50px;
-    gap:20px 0px;
+    padding-top:990px;
+    gap:15px 0px;
 }
 .coluna-33 {
-    margin: 4vw 0vw;
     width: 33%;
-    display: grid;
-    justify-content: center;
-    font-family: 'Inter';
-    font-weight: 853;
-    font-size: 35px;
 }
-
-.coluna-33 img {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-}
-
-.retangulo-solido {
-    display: grid;
-    justify-content: center;
-    margin-top: 0px;
-}
-
-.retangulo-solido img {
-    margin: 1vw 0vw;
-}
-
 h3{
     overflow-wrap: break-word;
     max-width: 80%;
     padding-left: 50px;
+
 }
 
-.square {
-    height: 21vh;
-    width: auto;
-    border: 5px solid black;
-    padding: 5vh 0;
+.square{
+    margin-left: 50px;
+    width: 350px;
+    height:200px;
+    border: 3px solid black;
 }
-
 .linha-eventos{
     display:flex;
     padding-left: 20px;
-    padding-top: 15vh;
+    padding-top: 60px;
     padding-bottom: 80px;
 }
 .coluna-50{
@@ -148,8 +135,9 @@ h5{
     color:white;
     font-weight: 200;
     max-width: 550px;
-}
 
+    
+}
 .branco{
     background-color: white;
     padding-top: 0px;
@@ -163,10 +151,10 @@ h6{
     font-weight: 200;
     max-width: 550px;
 }
-h7{
-    font-size: 500%;
-    font-family: 'Graduate', Courier;
-    font-weight: 400;
+h4[id="LUAU"]{
+    color:black;
+}
+h5[id="LUAU"]{
     color:black;
 }
 .linha-eventos2{
@@ -196,7 +184,6 @@ h7{
 .parceria[name="subway"] {
     background-color: rgb(172, 16, 16);
     color: #ffffff;
-    padding-top: 15vh;
 }
 
 .parceria[name="subway"] h1 {
@@ -206,7 +193,7 @@ h7{
 .parceria[name="subway"] div {
     display: flex grid;
     justify-content: center;
-    margin: 80px;
+    margin: 80px 100px;
 }
 
 .parceria[name="subway"] div:first-child {
@@ -224,7 +211,7 @@ h7{
 .parceria[name="vikings"] div {
     display: flex grid;
     justify-content: center;
-    margin: 80px;
+    margin: 80px 100px;
 }
 
 .parceria[name="vikings"] div:first-child {
@@ -247,7 +234,10 @@ h7{
 .parceria[name="tialilica"] div {
     display: flex grid;
     justify-content: center;
-    margin: 80px;
+    margin: 60px 100px;
+    padding-top: 60px;
+
+
 }
 
 .parceria[name="tialilica"] div:first-child {
@@ -262,10 +252,13 @@ h7{
     font-family: Graduate;
     font-size: 100px;
     text-align: left;
+    font-weight: 400;
+
 }
 
 .parceria p {
-    font-family: Inter;
-    font-size: 30px;
+
+    font-size: 150%;
     text-align: justify;
+    font-weight: 200;
 }
